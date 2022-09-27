@@ -24,14 +24,20 @@ header{
 	font-weight: bold;
 }
 
-.teste{
+.lista-beneficios{
 	display: flex;
-  	align-items: center;
-  	justify-content: center;
+	align-items: center;
+	justify-content: center;
+	background: #BBBBBBBB;
 }
 
-.teste2{
-	font-size: 18px;
+.lista-beneficios li{
+	display: inline-block;
+	font-size: 25px;
+	padding: 1% 50px;
+	margin: 0 2px;
+	max-width: 200px;
+
 }
 
 .img-beneficios{
@@ -40,32 +46,7 @@ header{
   	justify-content: center;
 }
 
-.img-atendimento{
-	box-sizing: border-box;
-	border: 2px solid #000000;
-	border-radius: 10px;
-	max-height: 250px;
-	max-width: 250px;
-	margin: 2% 1.5%;;
-}
-.img-profissionais-qualificados{
-	box-sizing: border-box;
-	border: 2px solid #000000;
-	border-radius: 10px;
-	max-height: 250px;
-	max-width: 250px;
-	margin: 2% 1.5%;
-}
-.img-espaco-diferenciado{
-	box-sizing: border-box;
-	border: 2px solid #000000;
-	border-radius: 10px;
-	max-height: 250px;
-	max-width: 250px;
-	margin: 2% 1.5%;;
-}
-.img-localizacao{
-
+.img-itensbeneficios{
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 10px;
