@@ -1,0 +1,68 @@
+header{
+	padding: 20px 0;
+	background: #BBBBBBBB;
+}
+
+.caixaLogo{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.tituloApresentacao{
+	position: absolute;
+    top: 110px;
+    right: 0;
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+#tituloBeneficio{
+	margin: 2%;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.lista-beneficios{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #BBBBBBBB;
+}
+
+.lista-beneficios li{
+	display: inline-block;
+	font-size: 25px;
+	padding: 1% 50px;
+	margin: 0 2px;
+	max-width: 200px;
+
+}
+
+.img-beneficios{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.img-itensbeneficios{
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	max-height: 250px;
+	max-width: 250px;
+	margin: 2% 1.5%;;
+}
+
+/* rodapé */
+footer{
+	text-align: center;
+	padding: 40px 0;
+	background: url("../img/bg.jpg")
+}
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
