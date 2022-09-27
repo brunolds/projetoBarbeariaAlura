@@ -1,55 +1,87 @@
-body{
-	background:#FFFFFF;
+header{
+	padding: 20px 0;
+	background: #BBBBBBBB;
 }
 
-.tituloPrincipal{
-	padding-left: 20px;
+.caixaLogo{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
 }
 
-#banner {
-	width: 100%;
+.tituloApresentacao{
+	position: absolute;
+    top: 110px;
+    right: 0;
+    font-size: 55px;
+    font-weight: bolder;
 }
 
-.principal {
-	background: #CCCCCC;
-	padding: 30px;
-}
-
-.tituloCentralizado{
+#tituloBeneficio{
+	margin: 2%;
+	font-size: 30px;
 	text-align: center;
+	font-weight: bold;
 }
 
-p{
+.teste{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.teste2{
+	font-size: 18px;
+}
+
+.img-beneficios{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.img-atendimento{
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	max-height: 250px;
+	max-width: 250px;
+	margin: 2% 1.5%;;
+}
+.img-profissionais-qualificados{
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	max-height: 250px;
+	max-width: 250px;
+	margin: 2% 1.5%;
+}
+.img-espaco-diferenciado{
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	max-height: 250px;
+	max-width: 250px;
+	margin: 2% 1.5%;;
+}
+.img-localizacao{
+
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	max-height: 250px;
+	max-width: 250px;
+	margin: 2% 1.5%;;
+}
+
+/* rodapé */
+footer{
 	text-align: center;
-	font-size: 14px;
+	padding: 40px 0;
+	background: url("../img/bg.jpg")
 }
-
-#missao {
-	text-align: center;
-	font-size: 16px;
-}
-
-em strong{
-	color: red;
-}
-
-.itens {
-	font-style: italic;
-}
-
-.beneficios {
-	background:#FFFFFF;
-	padding: 20px;
-}
-
-
-.listaBeneficios{
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
-}
-
-.imagemBeneficios{
-	width: 50%;
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
 }
